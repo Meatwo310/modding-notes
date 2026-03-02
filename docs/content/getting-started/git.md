@@ -104,7 +104,7 @@ git config user.email
         && sudo apt update \
         && sudo apt install gh -y
 
-    # Fedora
+    # Fedora (DNF5)
     sudo dnf install dnf5-plugins
     sudo dnf config-manager addrepo --from-repofile=https://cli.github.com/packages/rpm/gh-cli.repo
     sudo dnf install gh --repo gh-cli
